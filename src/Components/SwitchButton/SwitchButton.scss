@@ -1,0 +1,21 @@
+.switch-button{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .switch-button__container{
+        border: 1px solid red;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
